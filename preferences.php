@@ -19,7 +19,7 @@ define('CLEGTAIL', "0"); /* correlation suffix, for multiple b2b ua's */
 /* Database: mysql. Moved to configuration.php */
 if(!defined('DATABASE_DRIVER')) define('DATABASE_DRIVER',"mysql");
 /* Partition rtcp_capture table */
-define('RTCP_TABLE_PARTITION', 0);
+define('RTCP_TABLE_PARTITION', 1);
 /* AUTH: CLASS NAME. i.e. Internal  */
 define('AUTHENTICATION',"Internal");
 // define('AUTHENTICATION_TEXT',"Please login with your credentials");
